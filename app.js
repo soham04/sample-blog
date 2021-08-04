@@ -24,7 +24,7 @@ app.use(express.static("public"));
 
 // Initialing DB ----------------------------------------
 
-mongoose.connect("mongodb://localhost:27017/blogDB", {
+mongoose.connect("mongodb+srv://admin-soham:Lptmx5BnWF4y34d@cluster0.h1bt9.mongodb.net/blogDB", {
   useUnifiedTopology: true,
   useNewUrlParser: true,
   useCreateIndex: true,
